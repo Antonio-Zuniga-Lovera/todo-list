@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.container {
+    width: 300px;
+    background-color: rgba(211, 211, 211, 0.3);
+    padding: 3em;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+  
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+  
+button.delete-btn {
+    background-color: red;
+}
+  
+button.delete-btn:hover {
+    background-color: darkred;
+}
+  
+input[type="checkbox"] {
+    cursor: pointer;
+}
+  
+input[type="text"] {
+    padding: 5px;
+    width: 70%;
+}
+  
